@@ -1,0 +1,97 @@
+/* Write some CSS below */
+body {background-color: 240,240,240; margin: 0;
+
+}
+h1 {color: blue; text-align: left; font-size: 40px; font-family: 'Roboto', sans-serif; font-weight: bold;
+}
+h2 {color: blue; background-color: none; font-size: 20px; font-family: 'Roboto', sans-serif; font-weight: normal; 
+}
+p {color: black; font-size: 18px; font-family: 'Open Sans Condensed', sans-serif; line-height: 18px; letter-spacing: 0px;
+}
+a{text-decoration: underline; color: black; font-size: 14px; font-family: 'Open Sans Condensed', sans-serif; line-height: 18px; letter-spacing: 0px;
+}
+
+a:hover { color: gray; font-weight: bold;
+}
+
+.banner-text {color: gray;
+}
+
+.banner {
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.1)), url(images/_DSC8389.jpg);
+	padding: 0px;
+	background-size: cover;
+	height: 300px;
+	background-position: center;
+	text-align: center;
+}
+
+
+.banner h1 {color: white;
+	padding: 40px;
+	text-align: center;
+}
+
+.banner p {color: yellow; opacity: 0.9; font-weight: bold;
+}
+
+.btn-yellow {
+	background-color: yellow;
+	padding: 8px 24px;
+	border-radius: 4px;
+}
+
+.btn-yellow:hover { background-color: black; color: white; }
+
+.container {
+	width: 700px 
+	margin 10px auto;
+	text-align: center;
+}
+
+.container h2 { text-align: left;
+padding: 20px 0px 20px 40px; 
+}
+
+.card-white{
+	background-color: white;
+	width: 200px;
+	padding: 24px;
+	margin: 16px;
+	border-radius: 4px;
+	box-shadow: 2px 3px 20px rgba(0,0,0,0.2);
+}
+
+.card-white img {
+	height:180px;
+	width: 180px;
+	object-fit: cover;
+}
+
+.cards {
+	display:flex;
+	justify-content: space-around;
+}
+
+.footer {padding: 50px;
+	display: flex;
+	justify-content: space-between; 
+}
+
+footer {color: gray;
+}
+
+.icons {
+	letter-spacing: 20px;
+}
+
+
+#logo{ height="300" width="450"}
+
+.img-circle {border-radius: 50%;
+}
+
+.bordered-red { border: 5px solid bordered-red; }
+
+div { background-color: rgba(0,0,0,0.01);
+}
